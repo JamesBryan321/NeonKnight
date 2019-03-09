@@ -136,6 +136,13 @@
             </e>
           </e>
         </e>
+        <e p="MobilityArts" t="Include">
+          <e p="SciFiHandGun" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="OrbitAroundTarget.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="ProCore" t="Include">
           <e p="ProGrids" t="Include">
             <e p="About" t="Include">
