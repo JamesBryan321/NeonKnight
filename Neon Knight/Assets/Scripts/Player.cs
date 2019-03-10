@@ -17,11 +17,13 @@ public class Player : MonoBehaviour
     public Transform shellEjection;
 
     public float PlayerSpeed;
+    private Animator anim;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponentInChildren<Animator>();
 
     }
 
@@ -38,6 +40,7 @@ public class Player : MonoBehaviour
         {
             transform.rotation = Quaternion.LookRotation(playerDirection, Vector3.up);
             fire();
+            anim.SetTrigger("Shoot");
         }
 
 
