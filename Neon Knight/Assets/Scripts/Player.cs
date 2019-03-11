@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    private float fireRate = 0.35f;
+    private float nextFire;
 
     public FixedJoystick joyStick1;
 
@@ -39,8 +41,12 @@ public class Player : MonoBehaviour
         if (playerDirection.sqrMagnitude > 0.0f)
         {
             transform.rotation = Quaternion.LookRotation(playerDirection, Vector3.up);
-            fire();
-            anim.SetTrigger("Shoot");
+            if (Time.time > nextFire)
+            {
+                fire();
+                anim.SetTrigger("Shoot");
+                nextFire = Time.time + fireRate;
+            }
         }
 
 
@@ -52,7 +58,7 @@ public class Player : MonoBehaviour
     {
         var bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
 
-        Instantiate(shell, shellEjection.position, shellEjection.rotation);
+        //Instantiate(shell, shellEjection.position, shellEjection.rotation);
       
 
     }
