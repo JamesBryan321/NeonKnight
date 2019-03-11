@@ -9156,7 +9156,12 @@ PrefabInstance:
     - target: {fileID: 5391512940167177801, guid: 418f24b6960e1a84c83b811c53ee0f94,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391512940167177801, guid: 418f24b6960e1a84c83b811c53ee0f94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5391512940167177795, guid: 418f24b6960e1a84c83b811c53ee0f94,
         type: 3}
@@ -9211,6 +9216,31 @@ PrefabInstance:
     - target: {fileID: 5391512940167177795, guid: 418f24b6960e1a84c83b811c53ee0f94,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391512940167177796, guid: 418f24b6960e1a84c83b811c53ee0f94,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391512940167177796, guid: 418f24b6960e1a84c83b811c53ee0f94,
+        type: 3}
+      propertyPath: m_Height
+      value: 3.6557708
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391512940167177796, guid: 418f24b6960e1a84c83b811c53ee0f94,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.8278854
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391512940167177796, guid: 418f24b6960e1a84c83b811c53ee0f94,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391512940480926956, guid: 418f24b6960e1a84c83b811c53ee0f94,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
