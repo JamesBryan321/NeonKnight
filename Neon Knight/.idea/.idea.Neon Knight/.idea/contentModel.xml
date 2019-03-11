@@ -7,6 +7,68 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="_MK" t="Include">
+          <e p="MKGlowFree" t="Include">
+            <e p="Editor" t="Include">
+              <e p="MKGlowFreeEditor.cs" t="Include" />
+            </e>
+            <e p="MKGlowFree.cs" t="Include" />
+            <e p="Shader" t="Include">
+              <e p="Render" t="Include">
+                <e p="MKGlowBlur.shader" t="Include" />
+                <e p="MKGlowBlurInc.cginc" t="Include" />
+                <e p="MKGlowComposite.shader" t="Include" />
+                <e p="MKGlowCompositeInc.cginc" t="Include" />
+                <e p="MKGlowSelectiveRender.shader" t="Include" />
+              </e>
+              <e p="Variants_SelectiveMode" t="Include">
+                <e p="Cutout" t="Include">
+                  <e p="MK_Cutout-Diffuse.shader" t="Include" />
+                  <e p="MK_Cutout-DiffuseBumped.shader" t="Include" />
+                  <e p="MK_Cutout-DiffuseBumpSpec.shader" t="Include" />
+                  <e p="MK_Cutout-Glossy.shader" t="Include" />
+                </e>
+                <e p="Illumin" t="Include">
+                  <e p="MK_Illumin-Diffuse.shader" t="Include" />
+                  <e p="MK_Illumin-DiffuseBumped.shader" t="Include" />
+                  <e p="MK_Illumin-DiffuseBumpSpec.shader" t="Include" />
+                  <e p="MK_Illumin-Glossy.shader" t="Include" />
+                </e>
+                <e p="Normal" t="Include">
+                  <e p="MK_Normal-Diffuse.shader" t="Include" />
+                  <e p="MK_Normal-DiffuseBumped.shader" t="Include" />
+                  <e p="MK_Normal-DiffuseBumpSpec.shader" t="Include" />
+                  <e p="MK_Normal-Glossy.shader" t="Include" />
+                </e>
+                <e p="Other" t="Include">
+                  <e p="MK_Illumin-Diffuse.shader" t="Include" />
+                  <e p="MK_Mobile-Diffuse.shader" t="Include" />
+                  <e p="MK_Unlit-Normal.shader" t="Include" />
+                </e>
+                <e p="Particle" t="Include">
+                  <e p="MK_Particle Add.shader" t="Include" />
+                  <e p="MK_Particle AddMultiply.shader" t="Include" />
+                  <e p="MK_Particle Alpha Blend.shader" t="Include" />
+                  <e p="MK_Particle Multiply.shader" t="Include" />
+                </e>
+                <e p="Sprites" t="Include">
+                  <e p="MK_Sprite-Default.shader" t="Include" />
+                  <e p="MK_Sprite-Diffuse.shader" t="Include" />
+                  <e p="MK_UnitySprites.cginc" t="Include" />
+                </e>
+                <e p="Transparent" t="Include">
+                  <e p="MK_Transparent-Diffuse.shader" t="Include" />
+                  <e p="MK_Transparent-DiffuseBumped.shader" t="Include" />
+                  <e p="MK_Transparent-DiffuseBumpSpec.shader" t="Include" />
+                  <e p="MK_Transparent-Glossy.shader" t="Include" />
+                </e>
+                <e p="UI" t="Include">
+                  <e p="MK_UI_Default.shader" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Cinemachine" t="Include">
           <e p="Base" t="Include">
             <e p="Editor" t="Include">

@@ -26,7 +26,7 @@ public class EnemyMove : MonoBehaviour {
 
     void Update () {
         nav.SetDestination(gate.position);
-        controller.SetFloat("Speed", Mathf.Abs(nav.velocity.x) + Mathf.Abs(nav.velocity.z));
+        //controller.SetFloat("Speed", Mathf.Abs(nav.velocity.x) + Mathf.Abs(nav.velocity.z));
         float distance = Vector3.Distance(transform.position, gate.position);
 
     }

@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
               <folding>
                 <marker date="1552250150357" expanded="true" signature="6:78" ph="..." />
                 <marker date="1552250150357" expanded="true" signature="117:1330" ph="{...}" />
@@ -76,6 +76,22 @@
                 <marker date="1552250150357" expanded="true" signature="580:1110" ph="{...}" />
                 <marker date="1552250150357" expanded="true" signature="934:1099" ph="{...}" />
                 <marker date="1552250150357" expanded="true" signature="1126:1327" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <marker date="1552267650649" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552267650649" expanded="true" signature="119:924" ph="{...}" />
+                <marker date="1552267650649" expanded="true" signature="126:216" ph="/* public AudioClip Zombie1; ... */" />
+                <marker date="1552267650649" expanded="true" signature="408:676" ph="{...}" />
+                <marker date="1552267650649" expanded="true" signature="697:921" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -91,15 +107,16 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManagement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_MK/MKGlowFree/Shader/Variants_SelectiveMode/Transparent/MK_Transparent-Diffuse.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManagement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs" />
       </list>
     </option>
   </component>
@@ -175,12 +192,12 @@
       <updated>1552103294109</updated>
       <workItem from="1552103299565" duration="118000" />
       <workItem from="1552104395338" duration="1543000" />
-      <workItem from="1552246296004" duration="1708000" />
+      <workItem from="1552246296004" duration="2614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3369000" />
+    <option name="totallyTimeSpent" value="4275000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -193,7 +210,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="185" y="84" width="1152" height="624" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
@@ -245,7 +261,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManagement.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -293,10 +308,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_MK/MKGlowFree/Shader/Variants_SelectiveMode/Transparent/MK_Transparent-Diffuse.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1551059059000" expanded="true" signature="47:1083" ph="{...}" />
+            <marker date="1551059059000" expanded="true" signature="60:443" ph="{...}" />
+            <marker date="1551059059000" expanded="true" signature="455:1032" ph="{...}" />
+            <marker date="1551059059000" expanded="true" signature="553:1025" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
             <marker date="1552250150357" expanded="true" signature="6:78" ph="..." />
             <marker date="1552250150357" expanded="true" signature="117:1330" ph="{...}" />
@@ -304,6 +331,20 @@
             <marker date="1552250150357" expanded="true" signature="580:1110" ph="{...}" />
             <marker date="1552250150357" expanded="true" signature="934:1099" ph="{...}" />
             <marker date="1552250150357" expanded="true" signature="1126:1327" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <marker date="1552267650649" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552267650649" expanded="true" signature="119:924" ph="{...}" />
+            <marker date="1552267650649" expanded="true" signature="126:216" ph="/* public AudioClip Zombie1; ... */" />
+            <marker date="1552267650649" expanded="true" signature="408:676" ph="{...}" />
+            <marker date="1552267650649" expanded="true" signature="697:921" ph="{...}" />
           </folding>
         </state>
       </provider>
