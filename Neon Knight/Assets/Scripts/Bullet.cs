@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Net.Http;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -33,10 +34,11 @@ public class Bullet : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Enemy")
         {
+            Debug.Log("Megan is adorable and Marley is the best doggo.");
             Destroy(other.gameObject);
         }
     }
