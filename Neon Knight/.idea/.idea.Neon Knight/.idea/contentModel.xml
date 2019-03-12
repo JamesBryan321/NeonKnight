@@ -255,7 +255,11 @@
           <e p="EnemyHealth.cs" t="Include" />
           <e p="EnemyMove.cs" t="Include" />
           <e p="GameManagement.cs" t="Include" />
+          <e p="ImprovedScripts" t="Include">
+            <e p="EnemySpawn.cs" t="Include" />
+          </e>
           <e p="Player.cs" t="Include" />
+          <e p="Score.cs" t="Include" />
           <e p="ShellEjection.cs" t="Include" />
           <e p="SoundManager.cs" t="Include" />
         </e>

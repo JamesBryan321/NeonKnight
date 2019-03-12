@@ -8,7 +8,7 @@ public class GameManagement : MonoBehaviour {
     public int round = 1;
     int EnemiesInGame;
     int EnemiesSpawnedInGame = 0;
-    float EnemySpawnTimer = 0;
+    float EnemySpawnTimer = 0f;
     float EnemiesAlive = 0;
     public static float EnemiesKilled = 0;
     float spawnRate;
@@ -21,21 +21,21 @@ public class GameManagement : MonoBehaviour {
     public static float finalScore;
 
     void Start () {
-        spawnRate = 800;
+        spawnRate = 4f;
 	}
 
     void Update() {
-        EnemiesInGame = (3 * round);
+        EnemiesInGame = (10 * round);
         if (EnemiesSpawnedInGame < EnemiesInGame)
         {
-            if (EnemySpawnTimer > spawnRate)
+            if (Time.time > spawnRate)
             {
                 spawnEnemy();
-                EnemySpawnTimer = 0;      
+                spawnRate = Time.time + spawnRate;      
             }
             else
             {
-                EnemySpawnTimer++;
+                //EnemySpawnTimer++;
             }
         }
         if (EnemiesAlive > 15)
@@ -60,12 +60,12 @@ public class GameManagement : MonoBehaviour {
         transform.localRotation = Quaternion.identity;
         Instantiate(Enemy[Random.Range(0, Enemy.Length)], randomSpawnPoint, Quaternion.identity);
         EnemiesSpawnedInGame++;
-        if(EnemiesSpawnedInGame == EnemiesInGame)
+        /*if(EnemiesSpawnedInGame == EnemiesInGame)
         {
             round++;
             spawnRate -= (round * 20);
             finalScore = playerScore;
-        }
+        }*/
     }
 
     /*void OnGUI()

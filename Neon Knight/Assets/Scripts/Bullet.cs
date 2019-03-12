@@ -38,7 +38,7 @@ public class Bullet : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            Debug.Log("Megan is adorable and Marley is the best doggo.");
+            Debug.Log("Hit.");
             Destroy(other.gameObject);
         }
     }
