@@ -22,7 +22,7 @@ public class EnemySpawn : MonoBehaviour
         StartCoroutine(Timer());
     }
 
-    void SpawnEnemy()
+    public void SpawnEnemy()
     {
         Vector3 randomSpawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)].position;
         transform.localRotation = Quaternion.identity;
