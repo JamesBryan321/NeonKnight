@@ -21,17 +21,17 @@ Material:
     m_TexEnvs:
     - _MKGlowTex:
         m_Texture: {fileID: 2800000, guid: c43738b2b5ea39e488158498ed03aa6e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Scale: {x: 1.4, y: 9.38}
+        m_Offset: {x: 1.56, y: 2.23}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: d2bfdb919488ef040b6f7e30c6d08ebf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Scale: {x: 0.46, y: 0.92}
+        m_Offset: {x: -1.22, y: -0.48}
     m_Floats:
     - _MKGlowOffSet: 0
     - _MKGlowPower: 2.5
-    - _MKGlowTexStrength: 0.91
+    - _MKGlowTexStrength: 2.7
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
     - _MKGlowColor: {r: 0.9448277, g: 1, b: 0, a: 1}
     - _MKGlowTexColor: {r: 1, g: 0.8896551, b: 0, a: 1}

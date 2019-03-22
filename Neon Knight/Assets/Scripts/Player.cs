@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
     {
         var bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
 
-        //Instantiate(shell, shellEjection.position, shellEjection.rotation);
+        Instantiate(shell, shellEjection.position, shellEjection.rotation);
       
 
     }

@@ -8,6 +8,8 @@ public class Bullet : MonoBehaviour
   
     public float Speed;
 
+ 
+
 
     public Transform deathLocation;
 
@@ -16,7 +18,7 @@ public class Bullet : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-    
+       
     }
 
     // Update is called once per frame
@@ -40,6 +42,11 @@ public class Bullet : MonoBehaviour
         {
             Debug.Log("Hit.");
             Destroy(other.gameObject);
+        }
+        if (other.gameObject.tag == "Chair")
+        {
+            Debug.Log("Hit_chair");
+            animator.SetBool("Chair_hit", true);
         }
     }
 }
