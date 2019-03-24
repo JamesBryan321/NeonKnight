@@ -40,7 +40,7 @@ public class Bullet : MonoBehaviour
         {
             Debug.Log("Hit.");
             EnemySpawn.enemiesKilled++;
-            Score.score++;
+            Score.score += (EnemySpawn.enemiesPerRound * 2);
             Debug.Log(EnemySpawn.enemiesKilled);
             Destroy(other.gameObject);
         }

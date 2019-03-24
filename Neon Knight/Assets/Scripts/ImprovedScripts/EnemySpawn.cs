@@ -7,10 +7,10 @@ public class EnemySpawn : MonoBehaviour
 {
     #region Variables
     
-    [SerializeField] public int round;
-    [SerializeField] int enemiesPerRound;
+    [SerializeField] public static int round;
+    [SerializeField] public static int enemiesPerRound;
     [SerializeField] int enemiesSpawned;
-    [SerializeField] float enemiesAlive;
+    [SerializeField] public static float enemiesAlive;
     [SerializeField] public static int enemiesKilled;
 
     public Transform[] spawnPoints;
@@ -41,7 +41,7 @@ public class EnemySpawn : MonoBehaviour
 
     IEnumerator Timer()
     {
-        yield return new WaitForSeconds(spawnTime);
+        yield return new WaitForSeconds(spawnTime - (round / 5));
         
         if (enemiesSpawned < enemiesPerRound)
         {

@@ -4,27 +4,49 @@ using UnityEngine;
 
 public class FPSSoundScript : MonoBehaviour
 {
-    public GameObject player;
-    public GameObject enemy;
+    //public GameObject player;
+    //public GameObject enemy;
     public List<AudioClip> stage1;
     public List<AudioClip> stage2;
     public List<AudioClip> stage3;
     public List<AudioClip> stage4;
 
-    //private bool inCalmZone = true;
-    //private bool inAlertZone = false;
-    //private bool inDangerZone = false;
+    private bool MusicStage2 = false;
+    private bool MusicStage3 = false;
+    private bool MusicStage4 = false;
 
     void Start()
     {
-        SoundManager.PlayMusic(gameObject, stage1[0]);
+        //SoundManager.PlayMusic(gameObject, stage1[0]);
     }
 
     void Update()
     {
-        /*if (enemiesAlive > 0 && enemiesAlive < 5)
+        if (EnemySpawn.enemiesAlive > 0 && EnemySpawn.enemiesAlive < 3 && !MusicStage2)
         {
+            Debug.Log("Stage 2 Looping.");            
+            bool MusicStage2 = true;
+            bool MusicStage3 = false;
+            bool MusicStage4 = false;
             SoundManager.PlayMusic(gameObject, stage2[0]);
-        }*/
+        }
+        
+        if (EnemySpawn.enemiesAlive > 2 && EnemySpawn.enemiesAlive < 8 && !MusicStage3)
+        {
+            Debug.Log("Stage 3 Looping.");            
+            bool MusicStage2 = false;
+            bool MusicStage3 = true;
+            bool MusicStage4 = false;
+            SoundManager.PlayMusic(gameObject, stage3[0]);
+        }
+        
+        if (EnemySpawn.enemiesAlive > 7 && !MusicStage4)
+        {
+            Debug.Log("Stage 4 Looping.");            
+            bool MusicStage2 = false;
+            bool MusicStage3 = false;
+            bool MusicStage4 = true;
+            SoundManager.PlayMusic(gameObject, stage4[0]);
+        }
     }
 }

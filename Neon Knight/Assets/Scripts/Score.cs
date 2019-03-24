@@ -9,15 +9,16 @@ public class Score : MonoBehaviour
     public static float score;
 
     [SerializeField] public Text currentScore;
+    public Text currentRound;
     
     void Start()
     {
-        score = 0;
-        currentScore.text = "SCORE: " + score.ToString();
+        score = 0;        
     }
 
     void Update()
     {
-        //Debug.Log(score);
+        currentScore.text = "SCORE: " + score.ToString();
+        currentRound.text = "ROUND: " + EnemySpawn.round.ToString();
     }
 }
