@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
 
     public float PlayerSpeed;
     private Animator anim;
+    public AudioSource GunShot;
 
 
     // Start is called before the first frame update
@@ -59,8 +60,8 @@ public class Player : MonoBehaviour
         var bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
 
         Instantiate(shell, shellEjection.position, shellEjection.rotation);
-      
 
+        GunShot.Play();
     }
 
 }

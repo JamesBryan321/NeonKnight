@@ -22,7 +22,7 @@ public class FPSSoundScript : MonoBehaviour
 
     void Update()
     {
-        if (EnemySpawn.enemiesAlive > 0 && EnemySpawn.enemiesAlive < 3 && !MusicStage2)
+        if (EnemySpawn.enemiesAlive > 0 && EnemySpawn.enemiesAlive < 6 && !MusicStage2)
         {
             Debug.Log("Stage 2 Looping.");            
             bool MusicStage2 = true;
@@ -31,7 +31,7 @@ public class FPSSoundScript : MonoBehaviour
             SoundManager.PlayMusic(gameObject, stage2[0]);
         }
         
-        if (EnemySpawn.enemiesAlive > 2 && EnemySpawn.enemiesAlive < 8 && !MusicStage3)
+        if (EnemySpawn.enemiesAlive > 5 && EnemySpawn.enemiesAlive < 10 && !MusicStage3)
         {
             Debug.Log("Stage 3 Looping.");            
             bool MusicStage2 = false;
@@ -40,7 +40,7 @@ public class FPSSoundScript : MonoBehaviour
             SoundManager.PlayMusic(gameObject, stage3[0]);
         }
         
-        if (EnemySpawn.enemiesAlive > 7 && !MusicStage4)
+        if (EnemySpawn.enemiesAlive > 9 && !MusicStage4)
         {
             Debug.Log("Stage 4 Looping.");            
             bool MusicStage2 = false;
