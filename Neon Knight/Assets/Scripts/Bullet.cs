@@ -8,9 +8,6 @@ public class Bullet : MonoBehaviour
   
     public float Speed;
 
- 
-
-
     public Transform deathLocation;
 
     public GameObject whatToSpawn;
@@ -33,6 +30,7 @@ public class Bullet : MonoBehaviour
 
         Destroy(collision.collider.gameObject);
         Destroy(gameObject);
+        
 
     }
 
@@ -41,12 +39,15 @@ public class Bullet : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             Debug.Log("Hit.");
+            EnemySpawn.enemiesKilled++;
+            Score.score++;
+            Debug.Log(EnemySpawn.enemiesKilled);
             Destroy(other.gameObject);
         }
         if (other.gameObject.tag == "Chair")
         {
             Debug.Log("Hit_chair");
-            animator.SetBool("Chair_hit", true);
+            //animator.SetBool("Chair_hit", true);
         }
     }
 }

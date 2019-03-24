@@ -21,7 +21,7 @@ Material:
     m_TexEnvs:
     - _MKGlowTex:
         m_Texture: {fileID: 2800000, guid: c43738b2b5ea39e488158498ed03aa6e, type: 3}
-        m_Scale: {x: 3.91, y: 0.4}
+        m_Scale: {x: 5, y: 0.8}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: d2bfdb919488ef040b6f7e30c6d08ebf, type: 3}
