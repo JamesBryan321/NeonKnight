@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Chair
+  - Play Area
   layers:
   - Default
   - TransparentFX

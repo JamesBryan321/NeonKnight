@@ -59,4 +59,6 @@ public class EnemySpawn : MonoBehaviour
         Instantiate(enemies[Random.Range(0, enemies.Length)], randomSpawnPoint, Quaternion.identity);
         Debug.Log("Spawn.");
     }
+    
+    
 }

@@ -7,11 +7,11 @@ using UnityEngine.SceneManagement;
 public class Pause : MonoBehaviour
 {
 
-    public Image menu;
+    public GameObject menu;
     // Start is called before the first frame update
     void Start()
     {
-        menu.enabled = false;
+        menu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -19,11 +19,11 @@ public class Pause : MonoBehaviour
     {
         if(Time.timeScale == 0)
         {
-            menu.enabled = true;
+            menu.SetActive(true);
         }
         if(Time.timeScale == 1)
         {
-            menu.enabled = false;
+            menu.SetActive(false);
         }
     }
 
@@ -37,6 +37,6 @@ public class Pause : MonoBehaviour
 
     public void Menu()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("LogoScene");
     }
 }
