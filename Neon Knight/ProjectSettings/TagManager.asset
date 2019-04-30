@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Chair
   - Play Area
+  - start
+  - aim
   layers:
   - Default
   - TransparentFX

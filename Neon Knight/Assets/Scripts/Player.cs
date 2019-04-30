@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 
@@ -23,10 +24,21 @@ public class Player : MonoBehaviour
     public AudioSource GunShot;
 
 
+    public Text Move;
+    public Image arrow1;
+    public Text aim;
+    public Image arrow2;
+
+
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
+
+        Move.enabled = true;
+        arrow1.enabled = true;
+        aim.enabled = false;
+        arrow2.enabled = false;
 
     }
 
@@ -51,6 +63,40 @@ public class Player : MonoBehaviour
         }
 
 
+
+
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+
+        if (other.tag == "aim")
+        {
+            aim.enabled = true;
+            arrow2.enabled = true;
+        }
+
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+
+        if (other.tag == "start")
+        {
+            Move.enabled = false;
+            arrow1.enabled = false;
+        }
+        if (other.tag == "aim")
+        {
+            aim.enabled = false;
+            arrow2.enabled = false;
+        }
 
 
     }
