@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
 
     public float health = 100;
 
-    public GameObject deathEffect;
+    public ParticleSystem deathEffect;
 
     [Header("Unity Stuff")]
     public Image healthBar;
@@ -37,6 +37,7 @@ public class Enemy : MonoBehaviour
             EnemySpawn.enemiesKilled++;
             Score.score += (EnemySpawn.enemiesPerRound * 2);
             Debug.Log(EnemySpawn.enemiesKilled);
+            Dead();
             Destroy(gameObject);
         }
     }
@@ -47,6 +48,11 @@ public class Enemy : MonoBehaviour
         {
             TakeDamage();
         }
+    }
+
+    public void Dead()
+    {
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
     }
 
 
