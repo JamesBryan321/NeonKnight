@@ -14,6 +14,10 @@ public class Player : MonoBehaviour
 
     public FixedJoystick joyStick2;
 
+    public Image HealthBar;
+
+    public float PlayerHealth = 100;
+
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
     public Transform shell;
@@ -29,6 +33,8 @@ public class Player : MonoBehaviour
     public Text aim;
     public Image arrow2;
 
+    public bool PickUp;
+
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +45,7 @@ public class Player : MonoBehaviour
         arrow1.enabled = true;
         aim.enabled = false;
         arrow2.enabled = false;
+        PickUp = false;
 
     }
 
@@ -54,11 +61,20 @@ public class Player : MonoBehaviour
         if (playerDirection.sqrMagnitude > 0.0f)
         {
             transform.rotation = Quaternion.LookRotation(playerDirection, Vector3.up);
-            if (Time.time > nextFire)
+
+            if (PickUp == false)
+            {
+                if (Time.time > nextFire)
+                {
+
+                    fire();
+                    anim.SetTrigger("Shoot");
+                    nextFire = Time.time + fireRate;
+                }
+            }
+            if(PickUp == true)
             {
                 fire();
-                anim.SetTrigger("Shoot");
-                nextFire = Time.time + fireRate;
             }
         }
 
@@ -80,6 +96,15 @@ public class Player : MonoBehaviour
         {
             aim.enabled = true;
             arrow2.enabled = true;
+        }
+        if(other.gameObject.tag == "Enemy")
+        {
+            Hit();
+        }
+        if (other.gameObject.tag == "PickUp")
+        {
+            PickUp = true;
+            Invoke("SetBoolBack", 30f);
         }
 
     }
@@ -107,6 +132,24 @@ public class Player : MonoBehaviour
         Instantiate(shell, shellEjection.position, shellEjection.rotation);
 
         GunShot.Play();
+    }
+
+    void Hit()
+    {
+        PlayerHealth = PlayerHealth - 5; 
+
+        HealthBar.fillAmount = PlayerHealth / 100f;
+
+        if(PlayerHealth <= 0)
+        {
+
+        }
+    }
+   
+
+    private void SetBoolBack()
+    {
+        PickUp = false;
     }
 
 }

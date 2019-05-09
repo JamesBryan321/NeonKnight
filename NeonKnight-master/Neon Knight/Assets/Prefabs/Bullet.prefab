@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5283790592821338495}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,6 +105,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 25
-  animator: {fileID: 0}
   deathLocation: {fileID: 3937390793008152143}
   whatToSpawn: {fileID: 0}
+  damage: 50

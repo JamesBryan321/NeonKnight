@@ -9,6 +9,8 @@ TagManager:
   - Play Area
   - start
   - aim
+  - Bullet
+  - PickUp
   layers:
   - Default
   - TransparentFX

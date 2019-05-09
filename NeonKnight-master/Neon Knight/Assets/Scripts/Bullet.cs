@@ -12,6 +12,8 @@ public class Bullet : MonoBehaviour
 
     public GameObject whatToSpawn;
 
+    public int damage = 50;
+
     // Use this for initialization
     void Start()
     {
@@ -38,11 +40,11 @@ public class Bullet : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            Debug.Log("Hit.");
+          /*  Debug.Log("Hit.");
             EnemySpawn.enemiesKilled++;
             Score.score += (EnemySpawn.enemiesPerRound * 2);
-            Debug.Log(EnemySpawn.enemiesKilled);
-            Destroy(other.gameObject);
+            Debug.Log(EnemySpawn.enemiesKilled);*/
+
         }
         if (other.gameObject.tag == "Chair")
         {
@@ -50,4 +52,6 @@ public class Bullet : MonoBehaviour
             //animator.SetBool("Chair_hit", true);
         }
     }
+
+   
 }
