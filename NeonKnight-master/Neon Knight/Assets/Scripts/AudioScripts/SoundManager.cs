@@ -6,7 +6,7 @@ using UnityEngine.Audio;
 public class SoundManager : MonoBehaviour
 {
 
-    static public void PlayMusic(GameObject gameObj, AudioClip audioClip)
+    public static void PlayMusic(GameObject gameObj, AudioClip audioClip)
     {
         gameObj.GetComponent<AudioSource>().PlayOneShot(audioClip);
     }

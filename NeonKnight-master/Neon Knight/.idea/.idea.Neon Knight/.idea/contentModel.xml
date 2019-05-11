@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\shane\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\shane\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Neon Knight.-2137599768.00" t="ExcludeRecursive" />
-    <e p="C:\Users\shane\AppData\local\Android\Sdk\platforms\android-28\data\res" t="IncludeRecursive" />
-    <e p="C:\Users\shane\AppData\local\Android\Sdk\sources\android-28" t="IncludeRecursive" />
-    <e p="E:\Git Repo\NeonKnight\Neon Knight" t="IncludeRecursive">
+    <e p="C:\Users\shane\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Neon Knight.1852161894.00" t="ExcludeRecursive" />
+    <e p="C:\Users\shane\Documents\GitHub\NeonKnight\NeonKnight-master\Neon Knight" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -216,6 +214,13 @@
           </e>
         </e>
         <e p="Pause.cs" t="Include" />
+        <e p="PeterLu_HologramShader" t="Include">
+          <e p="Documentation.txt" t="Include" />
+          <e p="Shader" t="Include">
+            <e p="BaiscRim.shader" t="Include" />
+            <e p="BasicHologram.shader" t="Include" />
+          </e>
+        </e>
         <e p="ProCore" t="Include">
           <e p="ProGrids" t="Include">
             <e p="About" t="Include">
@@ -259,7 +264,6 @@
           <e p="Scripts" t="Include">
             <e p="CameraSwitch.cs" t="Include" />
             <e p="LevelReset.cs" t="Include" />
-            <e p="ParticleSceneControls.cs" t="Include" />
             <e p="PlaceTargetWithMouse.cs" t="Include" />
             <e p="SlowMoButton.cs" t="Include" />
           </e>
@@ -267,35 +271,17 @@
             <e p="Skybox-Procedural.shader" t="Include" />
           </e>
         </e>
-        <e p="SciFi HandLight Free" t="Include">
-          <e p="Editor" t="Include">
-            <e p="ImageEffects" t="Include">
-              <e p="AntialiasingEditor.cs" t="Include" />
-              <e p="BloomAndFlaresEditor.cs" t="Include" />
-              <e p="BloomEditor.cs" t="Include" />
-              <e p="CameraMotionBlurEditor.cs" t="Include" />
-              <e p="ColorCorrectionCurvesEditor.cs" t="Include" />
-              <e p="ColorCorrectionLookupEditor.cs" t="Include" />
-              <e p="CreaseShadingEditor.cs" t="Include" />
-              <e p="DepthOfFieldDeprecatedEditor.cs" t="Include" />
-              <e p="DepthOfFieldEditor.cs" t="Include" />
-              <e p="EdgeDetectionEditor.cs" t="Include" />
-              <e p="NoiseAndGrainEditor.cs" t="Include" />
-              <e p="SunShaftsEditor.cs" t="Include" />
-              <e p="TonemappingEditor.cs" t="Include" />
-              <e p="VignetteAndChromaticAberrationEditor.cs" t="Include" />
-            </e>
-          </e>
-        </e>
         <e p="Scripts" t="Include">
           <e p="AudioScripts" t="Include">
+            <e p="DynamicAudio.cs" t="Include" />
             <e p="FPSSoundScript.cs" t="Include" />
+            <e p="MusicSwitch.cs" t="Include" />
             <e p="SoundManager.cs" t="Include" />
             <e p="TrackClass.cs" t="Include" />
           </e>
           <e p="Bullet.cs" t="Include" />
           <e p="Character.cs" t="Include" />
-          <e p="DynamicAudio.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
           <e p="EnemyHealth.cs" t="Include" />
           <e p="EnemyMove.cs" t="Include" />
           <e p="GameManagement.cs" t="Include" />
@@ -305,6 +291,14 @@
           <e p="Player.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="ShellEjection.cs" t="Include" />
+        </e>
+        <e p="SimpleFX" t="Include">
+          <e p="Materials" t="Include">
+            <e p="UnlitVertexColour_Alpha.shader" t="Include" />
+          </e>
+        </e>
+        <e p="SkySerie Freebie" t="Include">
+          <e p="Hdri setup.txt" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">

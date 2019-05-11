@@ -17,19 +17,20 @@ public class FPSSoundScript : MonoBehaviour
 
     void Start()
     {
-        //SoundManager.PlayMusic(gameObject, stage1[0]);
+        SoundManager.PlayMusic(gameObject, stage1[0]);
     }
 
     void Update()
     {
         if (EnemySpawn.enemiesAlive > 0 && EnemySpawn.enemiesAlive < 6 && !MusicStage2)
-        {
-            Debug.Log("Stage 2 Looping.");            
-            bool MusicStage2 = true;
-            bool MusicStage3 = false;
-            bool MusicStage4 = false;
-            SoundManager.PlayMusic(gameObject, stage2[0]);
-        }
+                 {
+                     Debug.Log("Stage 2 Looping.");
+                     bool MusicStage2 = true;
+                     bool MusicStage3 = false;
+                     bool MusicStage4 = false;
+                     SoundManager.PlayMusic(gameObject, stage2[0]);
+                     new WaitForSeconds(stage2[0].length);
+                 }
         
         if (EnemySpawn.enemiesAlive > 5 && EnemySpawn.enemiesAlive < 10 && !MusicStage3)
         {
@@ -38,6 +39,7 @@ public class FPSSoundScript : MonoBehaviour
             bool MusicStage3 = true;
             bool MusicStage4 = false;
             SoundManager.PlayMusic(gameObject, stage3[0]);
+            new WaitForSeconds(stage3[0].length);
         }
         
         if (EnemySpawn.enemiesAlive > 9 && !MusicStage4)
@@ -47,6 +49,7 @@ public class FPSSoundScript : MonoBehaviour
             bool MusicStage3 = false;
             bool MusicStage4 = true;
             SoundManager.PlayMusic(gameObject, stage4[0]);
+            new WaitForSeconds(stage4[0].length);
         }
     }
 }
