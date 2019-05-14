@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\shane\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\shane\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Neon Knight.1852161894.00" t="ExcludeRecursive" />
-    <e p="C:\Users\shane\Documents\GitHub\NeonKnight\NeonKnight-master\Neon Knight" t="IncludeRecursive">
+    <e p="C:\Users\shane\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Neon Knight.-687049000.00" t="ExcludeRecursive" />
+    <e p="E:\Git Repo\NeonKnight\NeonKnight-master\Neon Knight" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -213,6 +213,48 @@
             </e>
           </e>
         </e>
+        <e p="Particle Dissolve Shader by Moonflower Carnivore" t="Include">
+          <e p="Readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="HUDFPS.cs" t="Include" />
+            <e p="PDS_GameController.cs" t="Include" />
+            <e p="ScrollingUVs_PDS.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="legacy" t="Include">
+              <e p="Dissolve_Alpha_Additive.shader" t="Include" />
+              <e p="Dissolve_Alpha_Additive_Opacity.shader" t="Include" />
+              <e p="Dissolve_Alpha_Additive_Opacity_softrim.shader" t="Include" />
+              <e p="Dissolve_Alpha_Additive_softrim.shader" t="Include" />
+              <e p="Dissolve_Alpha_Unlit.shader" t="Include" />
+              <e p="Dissolve_Alpha_Unlit_Opacity.shader" t="Include" />
+              <e p="Dissolve_Alpha_Unlit_Opacity_softrim.shader" t="Include" />
+              <e p="Dissolve_Alpha_Unlit_softrim.shader" t="Include" />
+              <e p="DissolveSoft_Alpha_Additive.shader" t="Include" />
+              <e p="DissolveSoft_Alpha_Additive_Opacity.shader" t="Include" />
+              <e p="DissolveSoft_Alpha_Additive_Opacity_softrim.shader" t="Include" />
+              <e p="DissolveSoft_Alpha_Additive_softrim.shader" t="Include" />
+              <e p="DissolveSoft_Alpha_Unlit.shader" t="Include" />
+              <e p="DissolveSoft_Alpha_Unlit_Opacity.shader" t="Include" />
+              <e p="DissolveSoft_Alpha_Unlit_Opacity_softrim.shader" t="Include" />
+              <e p="DissolveSoft_Alpha_Unlit_softrim.shader" t="Include" />
+            </e>
+            <e p="softrim" t="Include">
+              <e p="Particle_softrim_add.shader" t="Include" />
+              <e p="Particle_softrim_add_stretch.shader" t="Include" />
+              <e p="Particle_softrim_alpha.shader" t="Include" />
+              <e p="Particle_softrim_alpha_stretch.shader" t="Include" />
+            </e>
+            <e p="unity5" t="Include">
+              <e p="Editor" t="Include">
+                <e p="CustomMaterialEditor.cs" t="Include" />
+                <e p="Shader_softrim_dissolve.cs" t="Include" />
+              </e>
+              <e p="Particle_Softrim_Dissolve_additive.shader" t="Include" />
+              <e p="Particle_Softrim_Dissolve_alpha.shader" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Pause.cs" t="Include" />
         <e p="PeterLu_HologramShader" t="Include">
           <e p="Documentation.txt" t="Include" />
@@ -279,6 +321,7 @@
             <e p="SoundManager.cs" t="Include" />
             <e p="TrackClass.cs" t="Include" />
           </e>
+          <e p="Barrel.cs" t="Include" />
           <e p="Bullet.cs" t="Include" />
           <e p="Character.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />

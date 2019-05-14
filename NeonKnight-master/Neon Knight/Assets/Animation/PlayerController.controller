@@ -19,7 +19,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Base Layer
     m_StateMachine: {fileID: 1107892158463003278}
-    m_Mask: {fileID: 31900000, guid: ed5201edb80557b459d2c0c02a49fb44, type: 2}
+    m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
@@ -31,7 +31,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Recoil
     m_StateMachine: {fileID: 1107953990696283758}
-    m_Mask: {fileID: 31900000, guid: 282f9298a99318c4fa2db7378ebea3e5, type: 2}
+    m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
