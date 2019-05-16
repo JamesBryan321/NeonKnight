@@ -127,7 +127,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ShootRecoil
-  m_Speed: 1
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101041972315737056}
@@ -221,7 +221,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 6ae7d647aa3230745a5885464404a102, type: 3}
+  m_Motion: {fileID: 7400000, guid: 7f96f6c8aac2b1847b75850a854394a8, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

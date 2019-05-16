@@ -3,6 +3,8 @@
   <component name="ContentModelStore">
     <e p="C:\Users\shane\.Rider2018.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\shane\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Neon Knight.-687049000.00" t="ExcludeRecursive" />
+    <e p="C:\Users\shane\AppData\local\Android\Sdk\platforms\android-28\data\res" t="IncludeRecursive" />
+    <e p="C:\Users\shane\AppData\local\Android\Sdk\sources\android-28" t="IncludeRecursive" />
     <e p="E:\Git Repo\NeonKnight\NeonKnight-master\Neon Knight" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />

@@ -7,7 +7,8 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    private float fireRate = 0.35f;
+    public float fireRate;
+    public float mGFireRate;
     private float nextFire;
 
     public FixedJoystick joyStick1;
@@ -72,9 +73,14 @@ public class Player : MonoBehaviour
                     nextFire = Time.time + fireRate;
                 }
             }
-            if(PickUp == true)
+            else if(PickUp == true)
             {
-                fire();
+                if (Time.time > nextFire)
+                {
+                    fire();
+                    anim.SetTrigger("Shoot");
+                    nextFire = Time.time + mGFireRate;
+                }
             }
         }
 
