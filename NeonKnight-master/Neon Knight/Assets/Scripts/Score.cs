@@ -13,7 +13,7 @@ public class Score : MonoBehaviour
     
     void Start()
     {
-        score = 0;        
+        //score = 0;        
     }
 
     void Update()

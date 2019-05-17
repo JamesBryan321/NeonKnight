@@ -148,6 +148,7 @@ public class Player : MonoBehaviour
 
         if(PlayerHealth <= 0)
         {
+            HighScore.gameOver = true;
             SceneManager.LoadScene("Menu1");
         }
     }

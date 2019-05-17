@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\shane\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\shane\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Neon Knight.-687049000.00" t="ExcludeRecursive" />
-    <e p="C:\Users\shane\AppData\local\Android\Sdk\platforms\android-28\data\res" t="IncludeRecursive" />
-    <e p="C:\Users\shane\AppData\local\Android\Sdk\sources\android-28" t="IncludeRecursive" />
-    <e p="E:\Git Repo\NeonKnight\NeonKnight-master\Neon Knight" t="IncludeRecursive">
+    <e p="C:\Users\shane\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Neon Knight.1852161894.00" t="ExcludeRecursive" />
+    <e p="C:\Users\shane\Documents\GitHub\NeonKnight\NeonKnight-master\Neon Knight" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -207,7 +205,6 @@
             </e>
           </e>
         </e>
-        <e p="Menu.cs" t="Include" />
         <e p="MobilityArts" t="Include">
           <e p="SciFiHandGun" t="Include">
             <e p="Scripts" t="Include">
@@ -257,7 +254,6 @@
             </e>
           </e>
         </e>
-        <e p="Pause.cs" t="Include" />
         <e p="PeterLu_HologramShader" t="Include">
           <e p="Documentation.txt" t="Include" />
           <e p="Shader" t="Include">
@@ -330,12 +326,16 @@
           <e p="EnemyHealth.cs" t="Include" />
           <e p="EnemyMove.cs" t="Include" />
           <e p="GameManagement.cs" t="Include" />
+          <e p="HighScore.cs" t="Include" />
           <e p="ImprovedScripts" t="Include">
             <e p="EnemySpawn.cs" t="Include" />
           </e>
+          <e p="Menu.cs" t="Include" />
+          <e p="Pause.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="ShellEjection.cs" t="Include" />
+          <e p="wallCollide.cs" t="Include" />
         </e>
         <e p="SimpleFX" t="Include">
           <e p="Materials" t="Include">
@@ -791,7 +791,6 @@
             </e>
           </e>
         </e>
-        <e p="wallCollide.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="Neon Knight.sln" t="IncludeFlat" />
