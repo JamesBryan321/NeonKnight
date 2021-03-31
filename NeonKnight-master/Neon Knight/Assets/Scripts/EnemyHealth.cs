@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.ParticleSystemJobs;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -53,7 +54,9 @@ public class EnemyHealth : MonoBehaviour
         {
             //playerHealth -= 5;
             Debug.Log("DAMAGE");
-            Die();
+          //  Die();
         }
     }
+
+
 }

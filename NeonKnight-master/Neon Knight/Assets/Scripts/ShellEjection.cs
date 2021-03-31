@@ -11,7 +11,7 @@ public class ShellEjection : MonoBehaviour
     float lifetime = 4;
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
 
         myRigidbody.AddForce(transform.right * force);
