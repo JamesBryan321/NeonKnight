@@ -20,7 +20,7 @@ public class BulletScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            other.GetComponent<Enemy>().health --;
+            other.GetComponent<Enemy>().TakeDamage();
             Debug.Log("enemy shot");
         }
     }
