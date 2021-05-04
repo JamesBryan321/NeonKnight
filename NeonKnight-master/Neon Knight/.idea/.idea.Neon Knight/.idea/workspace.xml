@@ -13,7 +13,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ProCore/ProGrids/Editor/pg_Editor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioScripts/TrackClass.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Player/PlayerScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Unity Projects/MovieFPS/Assets/Scripts/Scripts/Current/Gun.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioScripts/DynamicAudio.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioScripts/MusicSwitch.cs" root0="FORCE_HIGHLIGHTING" />
@@ -27,8 +27,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManagement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HighScore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Movie-FPS/Movie FPS/Assets/Scripts/RaycastShoot.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Barrel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Unity Projects/MovieFPS/Assets/Scripts/Scripts/Current/Shoot.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -40,7 +42,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ImprovedScripts/Trackers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManagement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Pause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImprovedScripts/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioScripts/SoundManager.cs" />
@@ -58,6 +59,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
         <option value="$PROJECT_DIR$/Assets/Player/PlayerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/New Player/PlayerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/New Player/ShootScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
       </list>
     </option>
   </component>
@@ -136,7 +140,8 @@
       <workItem from="1557855380677" duration="1441000" />
       <workItem from="1557862760197" duration="2015000" />
       <workItem from="1558086839892" duration="1549000" />
-      <workItem from="1619741678343" duration="5555000" />
+      <workItem from="1619741678343" duration="5853000" />
+      <workItem from="1620166609229" duration="3111000" />
     </task>
     <servers />
   </component>

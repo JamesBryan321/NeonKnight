@@ -213,16 +213,17 @@
             </e>
           </e>
         </e>
+        <e p="New Player" t="Include">
+          <e p="PlayerControls.cs" t="Include" />
+          <e p="PlayerScript.cs" t="Include" />
+          <e p="ShootScript.cs" t="Include" />
+        </e>
         <e p="PeterLu_HologramShader" t="Include">
           <e p="Documentation.txt" t="Include" />
           <e p="Shader" t="Include">
             <e p="BaiscRim.shader" t="Include" />
             <e p="BasicHologram.shader" t="Include" />
           </e>
-        </e>
-        <e p="Player" t="Include">
-          <e p="PlayerControls.cs" t="Include" />
-          <e p="PlayerScript.cs" t="Include" />
         </e>
         <e p="PolygonSciFiCity" t="Include">
           <e p="_Shaders" t="Include">
