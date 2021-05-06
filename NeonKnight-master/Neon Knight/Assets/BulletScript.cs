@@ -21,6 +21,7 @@ public class BulletScript : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             other.GetComponent<Enemy>().TakeDamage();
+            other.GetComponent<enenmyManager>().broken();
             Debug.Log("enemy shot");
         }
     }

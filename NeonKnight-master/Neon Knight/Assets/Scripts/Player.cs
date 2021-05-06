@@ -58,6 +58,9 @@ public class Player : MonoBehaviour
         rigidbody.velocity = new Vector3(joyStick1.Horizontal * PlayerSpeed, rigidbody.velocity.y, joyStick1.Vertical * PlayerSpeed);
 
 
+      
+        
+
         Vector3 playerDirection = Vector3.right * joyStick2.Horizontal + Vector3.forward * joyStick2.Vertical;
         if (playerDirection.sqrMagnitude > 0.0f)
         {
@@ -139,7 +142,7 @@ public class Player : MonoBehaviour
             Hit();
         }
     }
-    void fire()
+     public void fire()
     {
         var bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
 
